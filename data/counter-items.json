@@ -1,0 +1,567 @@
+{
+	"source": {
+		"title": "An e6's guide to counterbuying versus each character",
+		"author": "AShires",
+		"url": "https://www.youtube.com/watch?v=Re9kWOCJXMY"
+	},
+	"hero_counters": [
+		{
+			"hero": "Abrams",
+			"threat_profile": "Heavy melee aggression, charge displacement, and high passive regeneration/sustain.",
+			"counter_items": [
+				{
+					"item": "Healbane",
+					"category": "Vitality",
+					"tier": 2,
+					"reason": "Reduces his innate health regeneration and life sustain when applying spirit damage."
+				},
+				{
+					"item": "Toxic Bullets",
+					"category": "Weapon",
+					"tier": 3,
+					"reason": "Applies stacking anti-heal via weapon fire to counteract his lifesteal and regen."
+				},
+				{
+					"item": "Decay",
+					"category": "Spirit",
+					"tier": 2,
+					"reason": "Active healing reduction and current health percentage damage to melt tank pools."
+				},
+				{
+					"item": "Debuff Reducer",
+					"category": "Vitality",
+					"tier": 2,
+					"reason": "Shortens the shoulder-charge stun and slow duration; it does not remove those effects immediately."
+				},
+				{
+					"item": "Return Fire",
+					"category": "Vitality",
+					"tier": 2,
+					"reason": "Punishes shotgun burst and point-blank trades."
+				}
+			]
+		},
+		{
+			"hero": "Bebop",
+			"threat_profile": "Hook displacement, sticky bomb spirit burst, and sustained Hyper Beam channel.",
+			"counter_items": [
+				{
+					"item": "Debuff Reducer",
+					"category": "Vitality",
+					"tier": 2,
+					"reason": "Shortens Sticky Bomb debuff duration, but does not cleanse the bomb before detonation."
+				},
+				{
+					"item": "Knockdown",
+					"category": "Spirit",
+					"tier": 3,
+					"reason": "Drops an anvil to interrupt and cancel his Hyper Beam (Ult) channel."
+				},
+				{
+					"item": "Cursed Relic",
+					"category": "Spirit",
+					"tier": 4,
+					"reason": "Silences and disarms, preventing hook setups or instantly canceling ultimate channel."
+				},
+				{
+					"item": "Spirit Armor",
+					"category": "Vitality",
+					"tier": 3,
+					"reason": "Mitigates high scaling spirit damage from bombs and laser."
+				},
+				{
+					"item": "Warp Stone",
+					"category": "Weapon",
+					"tier": 3,
+					"reason": "Instant blink to escape hook trajectories and break line of sight on the beam."
+				}
+			]
+		},
+		{
+			"hero": "Dynamo",
+			"threat_profile": "Singularity team black hole, heavy AoE knockup, and squad sustain.",
+			"counter_items": [
+				{
+					"item": "Unstoppable",
+					"category": "Vitality",
+					"tier": 4,
+					"reason": "Immunity to crowd control; prevents getting pulled into or locked inside Singularity."
+				},
+				{
+					"item": "Cursed Relic",
+					"category": "Spirit",
+					"tier": 4,
+					"reason": "Immediate hard silence and disarm to shut down Singularity channel from range."
+				},
+				{
+					"item": "Silence Wave",
+					"category": "Spirit",
+					"tier": 3,
+					"reason": "Prevents him from chaining Quantum Entanglement or casting Singularity."
+				},
+				{
+					"item": "Healbane",
+					"category": "Vitality",
+					"tier": 2,
+					"reason": "Cuts Rejuvenating Aurora area team healing."
+				}
+			]
+		},
+		{
+			"hero": "Grey Talon",
+			"threat_profile": "Rooftop/airborne Rain of Arrows, piercing Charged Shot poke, and Guided Owl burst.",
+			"counter_items": [
+				{
+					"item": "Knockdown",
+					"category": "Spirit",
+					"tier": 3,
+					"reason": "Knocks him directly out of the sky during Rain of Arrows, canceling his aerial flight."
+				},
+				{
+					"item": "Spirit Armor",
+					"category": "Vitality",
+					"tier": 3,
+					"reason": "Reduces massive burst from Charged Shot snipes and Guided Owl."
+				},
+				{
+					"item": "Cursed Relic",
+					"category": "Spirit",
+					"tier": 4,
+					"reason": "Grounds him and cancels Owl steering/channeling."
+				},
+				{
+					"item": "High-Velocity Rounds",
+					"category": "Weapon",
+					"tier": 1,
+					"reason": "Improves bullet velocity to reliably hit him while hovering at long distance."
+				}
+			]
+		},
+		{
+			"hero": "Haze",
+			"threat_profile": "Stealth ambush, Sleep Dagger disable, and Bullet Dance channel.",
+			"counter_items": [
+				{
+					"item": "Metal Skin",
+					"category": "Vitality",
+					"tier": 3,
+					"reason": "100% immunity to bullet damage; completely nullifies Bullet Dance (Ult)."
+				},
+				{
+					"item": "Return Fire",
+					"category": "Vitality",
+					"tier": 2,
+					"reason": "Reflects rapid bullet damage during her spray and ultimate."
+				},
+				{
+					"item": "Knockdown",
+					"category": "Spirit",
+					"tier": 3,
+					"reason": "Interrupts and cancels Bullet Dance through an anvil stun from outside the radius."
+				},
+				{
+					"item": "Cursed Relic",
+					"category": "Spirit",
+					"tier": 4,
+					"reason": "Silences and disarms, canceling Bullet Dance instantly."
+				},
+				{
+					"item": "Debuff Reducer",
+					"category": "Vitality",
+					"tier": 2,
+					"reason": "Shortens Sleep Dagger debuff duration, reducing the window for her follow-up."
+				}
+			]
+		},
+		{
+			"hero": "Infernus",
+			"threat_profile": "Sustained Afterburn DoT, Catalyst damage amplification, and dive stun.",
+			"counter_items": [
+				{
+					"item": "Debuff Reducer",
+					"category": "Vitality",
+					"tier": 2,
+					"reason": "Shortens negative-effect duration; it does not purge Afterburn stacks or Catalyst amplification."
+				},
+				{
+					"item": "Debuff Reducer",
+					"category": "Vitality",
+					"tier": 2,
+					"reason": "Passive duration reduction on fire ticks and slow debuffs."
+				},
+				{
+					"item": "Healbane / Toxic Bullets",
+					"category": "Universal Anti-Heal",
+					"tier": 2,
+					"reason": "Shuts down his core survivability engine (Spirit Lifesteal and Leech)."
+				},
+				{
+					"item": "Metal Skin",
+					"category": "Vitality",
+					"tier": 3,
+					"reason": "Prevents him from landing weapon fire to apply or refresh Afterburn stacks."
+				}
+			]
+		},
+		{
+			"hero": "Lady Geist",
+			"threat_profile": "Sacrificial Essence Bomb poke, Life Drain tether sustain, and Soul Exchange reversal.",
+			"counter_items": [
+				{
+					"item": "Healbane / Toxic Bullets / Decay",
+					"category": "Anti-Heal",
+					"tier": 2,
+					"reason": "Severely reduces healing from Life Drain tether and Soul Exchange swaps."
+				},
+				{
+					"item": "Cursed Relic",
+					"category": "Spirit",
+					"tier": 4,
+					"reason": "Prevents her from executing Soul Exchange when dropped to critical HP."
+				},
+				{
+					"item": "Silence Wave",
+					"category": "Spirit",
+					"tier": 3,
+					"reason": "Locks out Soul Exchange panic reversals and stops Life Drain channeling."
+				},
+				{
+					"item": "Spirit Armor",
+					"category": "Vitality",
+					"tier": 2,
+					"reason": "Mitigates heavy Essence Bomb burst and tether tick damage."
+				}
+			]
+		},
+		{
+			"hero": "Lash",
+			"threat_profile": "Vertical dive initiation, Ground Strike burst, and Death Slam kidnap.",
+			"counter_items": [
+				{
+					"item": "Debuff Reducer",
+					"category": "Vitality",
+					"tier": 2,
+					"reason": "Shortens applicable tether-related slow effects; it does not cleanse the tether itself."
+				},
+				{
+					"item": "Unstoppable",
+					"category": "Vitality",
+					"tier": 4,
+					"reason": "Grants complete CC immunity against Death Slam throw and Ground Strike knockups."
+				},
+				{
+					"item": "Knockdown",
+					"category": "Spirit",
+					"tier": 3,
+					"reason": "Drops him out of the air while he maneuvers with Grapple."
+				},
+				{
+					"item": "Spirit Armor",
+					"category": "Vitality",
+					"tier": 3,
+					"reason": "Softens high base spirit damage from Ground Strike and Death Slam."
+				}
+			]
+		},
+		{
+			"hero": "McGinnis",
+			"threat_profile": "Turret zone control, sustained minigun fire, and Heavy Barrage rocket zoning.",
+			"counter_items": [
+				{
+					"item": "Knockdown",
+					"category": "Spirit",
+					"tier": 3,
+					"reason": "Immediately interrupts Heavy Barrage rocket ultimate channel."
+				},
+				{
+					"item": "Cursed Relic",
+					"category": "Spirit",
+					"tier": 4,
+					"reason": "Cancels ultimate channel, disarms minigun, and silences turret deployment."
+				},
+				{
+					"item": "Metal Skin",
+					"category": "Vitality",
+					"tier": 3,
+					"reason": "Ignores full ramp-up minigun damage during head-on trades."
+				},
+				{
+					"item": "Toxic Bullets / Healbane",
+					"category": "Anti-Heal",
+					"tier": 2,
+					"reason": "Cuts Medicinal Spectre healing zone sustain for her and her push waves."
+				}
+			]
+		},
+		{
+			"hero": "Mo & Krill",
+			"threat_profile": "Burrow dive initiation, disarm poke, and Combo suppression ultimate.",
+			"counter_items": [
+				{
+					"item": "Unstoppable",
+					"category": "Vitality",
+					"tier": 4,
+					"reason": "Prevents Combo suppression lock-down."
+				},
+				{
+					"item": "Cursed Relic",
+					"category": "Spirit",
+					"tier": 4,
+					"reason": "Used by an ally to immediately interrupt Combo and save the pinned teammate."
+				},
+				{
+					"item": "Knockdown",
+					"category": "Spirit",
+					"tier": 3,
+					"reason": "Teammate drops anvil to knock them out of Combo channel."
+				},
+				{
+					"item": "Healbane / Toxic Bullets",
+					"category": "Anti-Heal",
+					"tier": 2,
+					"reason": "Counters Scorn and Combo lifesteal pools."
+				},
+				{
+					"item": "Debuff Reducer",
+					"category": "Vitality",
+					"tier": 2,
+					"reason": "Shortens applicable slow and disarm effects from Scorn and Sand Blast."
+				}
+			]
+		},
+		{
+			"hero": "Pocket",
+			"threat_profile": "High mobility blink dives, Affliction DoT decay, and Satchel invulnerability stall.",
+			"counter_items": [
+				{
+					"item": "Debuff Reducer",
+					"category": "Vitality",
+					"tier": 2,
+					"reason": "Shortens applicable effects from Barrage and Affliction rather than purging their stacks."
+				},
+				{
+					"item": "Cursed Relic",
+					"category": "Spirit",
+					"tier": 4,
+					"reason": "Silences Pocket before they can enter Enchanter's Satchel or teleport with Cloak."
+				},
+				{
+					"item": "Silence Wave",
+					"category": "Spirit",
+					"tier": 3,
+					"reason": "Stops escape rotations and prevents iframe stall execution."
+				},
+				{
+					"item": "Spirit Armor",
+					"category": "Vitality",
+					"tier": 3,
+					"reason": "Dampens heavy burst from Barrage and Satchel explosions."
+				}
+			]
+		},
+		{
+			"hero": "Seven",
+			"threat_profile": "Static Charge AoE stun curse and massive Storm Cloud zone denial channel.",
+			"counter_items": [
+				{
+					"item": "Knockdown",
+					"category": "Spirit",
+					"tier": 3,
+					"reason": "Cancels Storm Cloud ultimate channel if Seven does not have Unstoppable active."
+				},
+				{
+					"item": "Cursed Relic",
+					"category": "Spirit",
+					"tier": 4,
+					"reason": "Silences Storm Cloud channel and prevents Static Charge casting."
+				},
+				{
+					"item": "Debuff Reducer",
+					"category": "Vitality",
+					"tier": 2,
+					"reason": "Shortens Static Charge effect duration; it does not instantly remove the mark."
+				},
+				{
+					"item": "Spirit Armor",
+					"category": "Vitality",
+					"tier": 3,
+					"reason": "Dramatically reduces damage taken when caught inside Storm Cloud or Lightning Ball."
+				}
+			]
+		},
+		{
+			"hero": "Shiv",
+			"threat_profile": "Bleed stacks, Bloodletting deferred damage mitigation, and Killing Blow executes.",
+			"counter_items": [
+				{
+					"item": "Debuff Reducer",
+					"category": "Vitality",
+					"tier": 2,
+					"reason": "Reduces Serrated Knives bleed duration, limiting how long the stacks remain."
+				},
+				{
+					"item": "Healbane / Toxic Bullets",
+					"category": "Anti-Heal",
+					"tier": 2,
+					"reason": "Reduces Bloodletting flush clearing efficiency and spirit lifesteal."
+				},
+				{
+					"item": "Decay",
+					"category": "Spirit",
+					"tier": 2,
+					"reason": "Current-health shred to burn through his high effective health pool."
+				},
+				{
+					"item": "Metal Skin",
+					"category": "Vitality",
+					"tier": 3,
+					"reason": "Protects against shotgun burst and Killing Blow resets during low-HP trades."
+				}
+			]
+		},
+		{
+			"hero": "Vindicta",
+			"threat_profile": "Flight snipes, Stake tether lockdown, Crow Familiar bleed, and Assassinate execution.",
+			"counter_items": [
+				{
+					"item": "Knockdown",
+					"category": "Spirit",
+					"tier": 3,
+					"reason": "Swats her out of Flight, grounding her and canceling airborne advantage."
+				},
+				{
+					"item": "Debuff Reducer",
+					"category": "Vitality",
+					"tier": 2,
+					"reason": "Shortens Stake and Crow Familiar debuff duration; it does not break the tether immediately."
+				},
+				{
+					"item": "Bullet Armor",
+					"category": "Vitality",
+					"tier": 3,
+					"reason": "Reduces standard scoped weapon damage and high-velocity snipe harass."
+				},
+				{
+					"item": "Warp Stone",
+					"category": "Weapon",
+					"tier": 3,
+					"reason": "Dodge Assassinate red laser shots and close the gap on her flight perch."
+				}
+			]
+		},
+		{
+			"hero": "Viscous",
+			"threat_profile": "The Cube invulnerability stall, Splatter poke, and CC-immune Goo Ball roll.",
+			"counter_items": [
+				{
+					"item": "Cursed Relic",
+					"category": "Spirit",
+					"tier": 4,
+					"reason": "Silences before Cube can be popped, shutting down invulnerability saves."
+				},
+				{
+					"item": "Majestic Leap / Warp Stone",
+					"category": "Mobility",
+					"tier": 3,
+					"reason": "Provides vertical or horizontal escape to evade Goo Ball rolling path."
+				},
+				{
+					"item": "Healbane / Toxic Bullets",
+					"category": "Anti-Heal",
+					"tier": 2,
+					"reason": "Reduces the substantial health regeneration granted during The Cube."
+				}
+			]
+		},
+		{
+			"hero": "Warden",
+			"threat_profile": "Alchemical Flask slow/stamina drain, Binding Word root, and sustained bullet lifesteal.",
+			"counter_items": [
+				{
+					"item": "Debuff Reducer",
+					"category": "Vitality",
+					"tier": 2,
+					"reason": "Shortens Binding Word root duration rather than cleansing the tether."
+				},
+				{
+					"item": "Stamina Mastery / Extra Stamina",
+					"category": "Vitality",
+					"tier": 2,
+					"reason": "Allows dashing outside Binding Word radius after taking Flask stamina drain."
+				},
+				{
+					"item": "Healbane / Toxic Bullets",
+					"category": "Anti-Heal",
+					"tier": 2,
+					"reason": "Cuts Last Stand lifesteal pulse sustain during brawls."
+				},
+				{
+					"item": "Return Fire",
+					"category": "Vitality",
+					"tier": 2,
+					"reason": "Deters weapon trading during his shield and lifesteal duration."
+				}
+			]
+		},
+		{
+			"hero": "Wraith",
+			"threat_profile": "Full Auto weapon DPS, Card Trick burst, and Telekinesis isolation stun.",
+			"counter_items": [
+				{
+					"item": "Metal Skin",
+					"category": "Vitality",
+					"tier": 3,
+					"reason": "Immunity to bullets; negates Full Auto activation and primary gun shred."
+				},
+				{
+					"item": "Return Fire",
+					"category": "Vitality",
+					"tier": 2,
+					"reason": "Punishes extreme fire rate during Full Auto."
+				},
+				{
+					"item": "Unstoppable",
+					"category": "Vitality",
+					"tier": 4,
+					"reason": "Blocks Telekinesis lift and suppression."
+				},
+				{
+					"item": "Debuff Reducer",
+					"category": "Vitality",
+					"tier": 2,
+					"reason": "Shortens stun and card-related negative-effect duration rather than cleansing them."
+				}
+			]
+		},
+		{
+			"hero": "Yamato",
+			"threat_profile": "Power Slash spirit burst, Flying Strike grapple, and Shadow Transformation invulnerability.",
+			"counter_items": [
+				{
+					"item": "Spirit Armor",
+					"category": "Vitality",
+					"tier": 3,
+					"reason": "Absorbs huge chunks of Spirit damage from Power Slash and Crimson Slash."
+				},
+				{
+					"item": "Cursed Relic",
+					"category": "Spirit",
+					"tier": 4,
+					"reason": "Silences Yamato before Shadow Transformation can be activated at low health."
+				},
+				{
+					"item": "Warp Stone",
+					"category": "Weapon",
+					"tier": 3,
+					"reason": "Instant repositioning to break grapple tether lines and dodge Power Slash cones."
+				},
+				{
+					"item": "Decay",
+					"category": "Spirit",
+					"tier": 2,
+					"reason": "Suppresses healing and chips effective health once invulnerability ends."
+				}
+			]
+		}
+	]
+}
