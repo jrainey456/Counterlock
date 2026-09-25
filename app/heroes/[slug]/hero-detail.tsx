@@ -120,12 +120,12 @@ export default function HeroDetail({ slug }: { slug: string }) {
     const heroCounterItems = heroCounterData?.counter_items ?? [];
 
     return (
-        <main className="min-h-screen bg-[#090a08] text-[#f1f0e8]">
-            <section className="relative isolate flex aspect-video min-h-[360px] items-end overflow-hidden border-b border-[#34362e] md:aspect-[32/9] md:max-h-[560px] md:min-h-[240px]">
+        <main className="mx-auto min-h-screen w-full max-w-[1920px] bg-[#090a08] text-[#f1f0e8]">
+            <section className="relative isolate mx-auto flex aspect-video w-full min-h-[360px] items-end overflow-hidden border-b border-[#34362e] md:aspect-[32/9] md:max-h-[560px] md:min-h-[240px]">
                 <Image
                     alt=""
                     aria-hidden="true"
-                    className="object-cover object-top"
+                    className="selection-screen-background object-cover object-top"
                     fill
                     priority
                     sizes="100vw"
@@ -135,7 +135,7 @@ export default function HeroDetail({ slug }: { slug: string }) {
                 <Image
                     alt=""
                     aria-hidden="true"
-                    className="z-20 object-cover object-top drop-shadow-[0_12px_24px_rgba(0,0,0,0.5)]"
+                    className="selection-screen-character z-20 object-cover object-top drop-shadow-[0_12px_24px_rgba(0,0,0,0.5)]"
                     fill
                     priority
                     sizes="100vw"
@@ -156,7 +156,7 @@ export default function HeroDetail({ slug }: { slug: string }) {
                 </div>
             </section>
 
-            <section className="mx-auto max-w-[1200px] px-5 py-9 sm:px-8 sm:py-12 lg:px-12">
+            <section className="mx-auto w-full max-w-[1200px] px-5 py-9 sm:px-8 sm:py-12 lg:px-12">
                 <header className="mb-5 flex items-end justify-between gap-4 border-b border-[#34362e] pb-4">
                     <div>
                         <p className="mb-2 font-mono text-[10px] tracking-[0.18em] text-[#c9df69]">
